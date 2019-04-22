@@ -7,14 +7,17 @@ const Jokes = (props) => {
   const [joke, setJoke] = React.useState(getRandomJoke());
 
   const nextJokeHandler = (e) => {
-    setJoke(getRandomJoke());
+    let nextJoke = getRandomJoke();
+    while (nextJoke.q === joke.q) {
+      nextJoke = getRandomJoke();
+    }
+
+    setJoke(nextJoke);
   };
+
   return (
     <div className="jokes-wrapper">
-      <button className="next-joke-btn" onClick={nextJokeHandler}>
-        Next
-      </button>
-      <Joke joke={joke} />
+      <Joke joke={joke} nextJokeHandler={nextJokeHandler} />
     </div>
   );
 };

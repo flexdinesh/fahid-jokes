@@ -2,7 +2,7 @@ import React from 'react';
 
 import './Joke.style.css';
 
-const Joke = ({ joke }) => {
+const Joke = ({ joke, nextJokeHandler }) => {
   const [reveal, setReveal] = React.useState(false);
 
   const revealAnswer = (e) => {
@@ -15,11 +15,17 @@ const Joke = ({ joke }) => {
 
   return (
     <div className="qa-wrapper">
+      <div className="btns-wrapper">
+        <button className="next-joke-btn" onClick={nextJokeHandler}>
+          Next
+        </button>
+        <button className="reveal-btn" onClick={revealAnswer}>
+          Reveal
+        </button>
+      </div>
       <div className="question">{joke.q}</div>
-      <button className="reveal-btn" onClick={revealAnswer}>
-        Reveal
-      </button>
-      <div className="answer">{reveal ? joke.a : ''}</div>
+
+      <div className="answer">{reveal ? `Ans: ${joke.a}` : ''}</div>
     </div>
   );
 };
