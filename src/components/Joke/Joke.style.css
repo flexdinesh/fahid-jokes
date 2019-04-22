@@ -1,0 +1,20 @@
+.qa-wrapper {
+  min-height: 20rem;
+}
+
+.question,
+.answer {
+  padding: 1rem 0;
+  font-size: 1.25rem;
+}
+
+.reveal-btn {
+  width: 6rem;
+  padding: 0.5rem 0;
+  background: #2196f3;
+  color: white;
+  font-size: 1rem;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+}
