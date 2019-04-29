@@ -1,5 +1,5 @@
 header.header {
-  background-color: #2196F3;
+  background-color: var(--theme-color);
   min-height: 6rem;
   display: flex;
   flex-direction: column;
