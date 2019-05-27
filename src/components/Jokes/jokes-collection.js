@@ -77,7 +77,30 @@ export const jokes = [
   { q: 'Who will win in a fight of numbers 19 & 20?', a: '21' },
   { q: 'How you count cows?', a: 'Cowculator' },
   { q: 'What do you call a mean acid?', a: 'A-mean-oh-acid' },
-  { q: 'What will you get if you add 3 jars of He (Helium)?', a: 'Laughing gas' }
+  { q: 'What will you get if you add 3 jars of He (Helium)?', a: 'Laughing gas' },
+  { q: 'When asked to count from 1-10 the kid missed number 6 Why?', a: 'Because in morning he heard in news that 6 died in road accident' },
+  { q: 'What will people call you if you step on a cornflake?', a: 'Cereal Killer' },
+  { q: 'Teacher didn’t punish a student coming late in class because of his answer. why?', a: 'He said there was a sign on road. “School Ahead - Go Slow”' },
+  { q: 'A man with his brother having blood on his head came to hospital in emergency department. Doctor: (While checking his pulse) I’m so sorry, he is no more. If you could brought him here half an hour before the accident, I could save him. Man: Slapped the doctor. Why?', a: 'The accident just happened 10 mins before.' },
+  { q: 'Which room has no doors, no windows?', a: 'Mushroom' },
+  { q: 'What do you call a short person waving at you?', a: 'Microwave' },
+  { q: 'What do you call friends you like to eat with?', a: 'Tastebuds' },
+  { q: 'What did the green grape say to the purple grape?', a: 'Breath Breath.' },
+  { q: 'What a pillow will say to a bed when it falls off the bed?', a: 'Oh Sheet!' },
+  { q: 'What’s the most terrifying word in nuclear physics?', a: 'Oops' },
+  { q: 'Do you want to hear a joke about potassium?', a: 'K' },
+  { q: 'What do you give to a sick bird?', a: 'A Tweetment' },
+  { q: 'Who invented the round table?', a: 'Sir Cumference' },
+  { q: 'What sound does a nut make when it sneezes?', a: 'Cashew!!!' },
+  { q: 'What do you call a can opener that doesn’t work?', a: 'A can’t opener' },
+  { q: 'What do you call a dog with Hammer?', a: 'Labra-Thor' },
+  { q: 'What do you call a man in Dubai selling milk?', a: 'Milk Sheikh ' },
+  { q: 'How can you double your money (No 5 or 6 years schemes, It will be double right away you invest)?', a: 'Put it in front of mirror.' },
+  { q: 'How can you make your electricity bill half?', a: 'Cut it from middle' },
+  { q: 'A man threw all butter out of the window while having breakfast. why?', a: 'To see a butter-fly.' },
+  { q: 'If you want to meet a prime minister, you can always meet them at night and not in morning. why?', a: 'Because its PM and not AM' },
+  { q: 'What is the thing which can belong to every one before marriage and after marriage it can only belongs to husband?', a: 'Mistake' },
+  { q: 'Which animal is oldest animal on earth and why?', a: 'Zebra, Because its black and white' }
 ];
 
 export const getRandomJoke = () => {
